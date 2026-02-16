@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Tailwind v4 theme configuration (migrated from CDN tailwind.config) */
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', 'Roboto', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, Consolas, 'Microsoft YaHei', monospace;
+
+  --animate-scanline: scanline 8s linear infinite;
+  --animate-pulse-fast: pulse 0.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-marquee: marquee 30s linear infinite;
+  --animate-credits: credits 60s linear infinite;
+  --animate-spin-slow: spin 8s linear infinite;
+}
+
+/* Global styles */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #e6e6e6;
+  color: #000;
+  font-family: 'Inter', 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+/* Base Grid Pattern */
+.blueprint-grid {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Diagonal Stripes Overlay Pattern */
+.stripes-bg-overlay {
+  background-image: linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 50%, #1a1a1a 50%, #1a1a1a 75%, transparent 75%, transparent);
+  background-size: 15px 15px;
+}
+
+.stroke-text {
+  -webkit-text-stroke: 1px currentColor;
+  color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border: 2px solid #000;
+}
+
+/* Keyframes */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(1000%); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes credits {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+@keyframes equalizer {
+  0% { height: 20%; }
+  100% { height: 100%; }
+}
