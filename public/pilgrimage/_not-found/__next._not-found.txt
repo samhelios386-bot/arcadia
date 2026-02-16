@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[39756,["/pilgrimage/_next/static/chunks/ff1a16fafef87110.js","/pilgrimage/_next/static/chunks/5ec4bc4325d5a05b.js"],"default"]
 3:I[37457,["/pilgrimage/_next/static/chunks/ff1a16fafef87110.js","/pilgrimage/_next/static/chunks/5ec4bc4325d5a05b.js"],"default"]
-0:{"buildId":"sIZ8jZ32ImUyJT1a6gRKw","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"jRxfEwVmWnG0ZCK6vOSqf","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
