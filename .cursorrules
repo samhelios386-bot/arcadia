@@ -1,0 +1,11 @@
+
+# 行为准则 (Cursor Rules)
+
+1.  **语言要求**:
+    - 所有的技术文档、Artifacts (如 task.md, implementation_plan.md, walkthrough.md) 以及与用户的对话必须严格使用**中文**。
+    - 即使代码变量名使用英文，相关的注释和解释也应尽量使用中文。
+
+2.  **Git 工作流**:
+    - 每次完成一个功能的修改或修复后，必须将代码推送到远程仓库。
+    - 远程仓库地址: https://github.com/samhelios386-bot/arcadia.git
+    - 提交信息 (Commit Message) 应清晰描述更改内容。
