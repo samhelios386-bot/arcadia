@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # 行为准则 (Cursor Rules)
 
@@ -9,3 +10,6 @@
     - 每次完成一个功能的修改或修复后，必须将代码推送到远程仓库。
     - 远程仓库地址: https://github.com/samhelios386-bot/arcadia.git
     - 提交信息 (Commit Message) 应清晰描述更改内容。
+=======
+Technical documentation must be written in Chinese.
+>>>>>>> ca4e158ab0d616ad9101520e5ff353d8f88c90f7
